@@ -1,0 +1,16 @@
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
+
+const firebaseConfig = {
+  apiKey: 'AIzaSyAtvVXVWUuJwV2oNDmEXkOLFAPmplXjhq8',
+  authDomain: 'users-dcbab.firebaseapp.com',
+  projectId: 'users-dcbab',
+  storageBucket: 'users-dcbab.appspot.com',
+  messagingSenderId: '247088992158',
+  appId: '1:247088992158:web:26a93e68afc1cc01f3508f',
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+export { db };
