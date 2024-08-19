@@ -1,9 +1,0 @@
-{
-  "projects": {
-    "default": "users-dcbab",
-    "dev": "users-dcbab"
-  },
-  "targets": {},
-  "etags": {},
-  "dataconnectEmulatorConfig": {}
-}
